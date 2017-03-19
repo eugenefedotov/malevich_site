@@ -7,6 +7,7 @@
 	<meta name="keywords" content="">
 	<link rel="stylesheet" href="css/libs/bootstrap.min.css">
 	<link rel="stylesheet" href="css/libs/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/libs/swiper.min.css">
 	<link rel="stylesheet" href="css/app.css">
 	<link rel="stylesheet" href="css/responsive.css">
 
@@ -26,7 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Brand</a>
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -34,45 +35,163 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
             <li><a href="#">Link</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
           </ul>
-          <form class="navbar-form navbar-left">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
-            </div>
-            <button type="submit" class="btn btn-default">Submit</button>
-          </form>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Link</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+  </div><!-- .header-nav -->
+
+  <div class="main-course">
+    <div class="block">
+      <header></header>
+      <div class="date"></div>
+      <div class="dscr"></div>
+      <div class="button"></div>
+    </div>
+  </div> <!-- .main-course -->
+
+  <div class="main-dscr">
+    <header></header>
+    <p></p>
   </div>
+
+  <div class="modules-block">
+    <div class="modules-wrapper">
+      <header></header>
+      <div class="header-dscr"></div>
+      <div class="modules-list">
+        <div class="item">
+          <div class="img">
+            <span>1 модуль</span>
+          </div>
+          <div class="header">Психология успеха</div>
+          <div class="date">22, 23 Апреля, 10:00-15:00</div>
+          <div class="dscr">
+            <p>
+              Смоделируй свой успех с помощью нейропрограммирования и коучинга! Только эффективные методики,
+              применяя которые, каждый день вы реализуете свои цели и мечты с удовольствием и вдохновением!
+              Данный модуль разработан для всех, кто находится в поиске своего призвания и желает разработать
+              подробный план для его реализации с учетом своих индивидуальных особенностей. Для тех, кто готов
+              изучать и использовать стратегии чемпионов, благодаря которым Вы приступите к реализации своей
+              мечты сразу после тренинга. А также для тех, кто уже нашел свое призвание и хочет реализовываться
+              в нем максимально эффективно.
+            </p>
+          </div>
+          <div class="button"></div>
+        </div>
+      </div>
+      <div class="modules-form-price">
+        <div class="modules-price"></div>
+        <div class="modules-form"></div>
+      </div><!-- .modules-form-price -->
+    </div>
+  </div><!-- .modules-block -->
+
+  <div class="reviews">
+    <header>Отзывы о курсе «FOR LADIES»</header>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="name">Светлана Немзорова</div>
+          <div class="dscr">
+            После прохождения данного тренинга разработка и работа над проектами стала проходить
+            намного эффективнее и быстрее
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="name">Светлана Немзорова</div>
+          <div class="dscr">
+            После прохождения данного тренинга разработка и работа над проектами стала
+            проходить намного эффективнее и быстрее
+          </div>
+        </div>
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next swiper-button-white"></div>
+      <div class="swiper-button-prev swiper-button-white"></div>
+    </div>
+  </div><!-- .reviews -->
+
+  <div class="about-us">
+    <header>Почему выбирают именно нас?</header>
+    <div class="about-list">
+      <div class="item">
+        <div class="img">img</div>
+        <header>Удобное расписание Занятий</header>
+        <div class="dscr">
+          <p>
+            Занятия проходят по выходным дням. Один модуль в месяц по выбранному курсу. Обычно он рассчитан на
+            два полных дня подряд и занимает одну вашу субботу и вскр в месяц. Полный курс рассчитан на 6 месяцев.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="img">img</div>
+        <header>Удобное расписание Занятий</header>
+        <div class="dscr">
+          <p>
+            Занятия проходят по выходным дням. Один модуль в месяц по выбранному курсу. Обычно он рассчитан на
+            два полных дня подряд и занимает одну вашу субботу и вскр в месяц. Полный курс рассчитан на 6 месяцев.
+          </p>
+        </div>
+      </div>
+      <div class="item">
+        <div class="img">img</div>
+        <header>Удобное расписание Занятий</header>
+        <div class="dscr">
+          <p>
+            Занятия проходят по выходным дням. Один модуль в месяц по выбранному курсу. Обычно он рассчитан на
+            два полных дня подряд и занимает одну вашу субботу и вскр в месяц. Полный курс рассчитан на 6 месяцев.
+          </p>
+        </div>
+      </div>
+    </div><!-- .about-list-->
+  </div><!-- .about-us-->
+
+  <div class="modules-form-price">
+    <div class="modules-price"></div>
+    <div class="modules-form"></div>
+  </div><!-- .modules-form-price -->
+
+  <div class="another-courses">
+    <div class="item">
+      <header>курс «TOP PERSON»</header>
+      <div class="date">Старт 7 августа 2017</div>
+    </div>
+    <div class="item">
+      <header>курс «TOP PERSON»</header>
+      <div class="date">Старт 7 августа 2017</div>
+    </div>
+    <div class="item">
+      <header>курс «TOP PERSON»</header>
+      <div class="date">Старт 7 августа 2017</div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="logo"></div>
+    <ul class="footer-nav">
+      <li><a href="javascript: void(0);">Программы курсов</a></li>
+      <li><a href="javascript: void(0);">Мастера</a></li>
+      <li><a href="javascript: void(0);">Мероприятия</a></li>
+      <li><a href="javascript: void(0);">Контакты</a></li>
+    </ul>
+    <div class="copyright">
+      <p>© 2016 «Малевич»</p>
+      <p>+7 961 221 09 09</p>
+      <p>svklub.malevich@mail.ru</p>
+      <div class="soc">
+        soc
+      </div>
+    </div>
+  </footer>
 
 	<script type="text/javascript" src="js/libs/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/libs/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/libs/swiper.jquery.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
