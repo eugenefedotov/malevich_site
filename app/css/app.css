@@ -59,3 +59,20 @@ p {
   font-size: 1.11vw;
   line-height: 1.67vw;
   }
+
+.header-nav {
+  background-color: #1f1e1c;
+  }
+.header-nav .navbar {
+  background: none;
+  border: none;
+  }
+.header-nav .navbar-default .navbar-nav>li>a {
+  color: #fff;
+  text-shadow: none;
+  }
+.header-nav .navbar-default .navbar-nav>.active>a,
+.header-nav .navbar-default .navbar-nav>.open>a {
+  background: none;
+  color: #ad9356;
+  }
