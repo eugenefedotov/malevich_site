@@ -66,6 +66,7 @@ p {
 .header-nav .navbar {
   background: none;
   border: none;
+  margin: 0 8%;
   }
 .header-nav .navbar-default .navbar-nav>li>a {
   color: #fff;
@@ -76,3 +77,68 @@ p {
   background: none;
   color: #ad9356;
   }
+.header-nav .navbar-default .navbar-nav a:hover {
+  color: #ad9356;
+  }
+
+.main-course {}
+.main-course .block {}
+.main-course .block .date {}
+.main-course .block .dscr {}
+.main-course .block .button {}
+
+.main-dscr {}
+.main-dscr header {}
+.main-dscr p {}
+
+.modules-block {}
+.modules-block .modules-wrapper {}
+.modules-block .modules-wrapper header {}
+.modules-block .modules-wrapper .header-dscr {}
+.modules-block .modules-wrapper .modules-list {}
+.modules-block .modules-wrapper .modules-list .item {}
+.modules-block .modules-wrapper .modules-list .item .img {}
+.modules-block .modules-wrapper .modules-list .item .img span {}
+.modules-block .modules-wrapper .modules-list .item .header {}
+.modules-block .modules-wrapper .modules-list .item .date {}
+.modules-block .modules-wrapper .modules-list .item .dscr {}
+.modules-block .modules-wrapper .modules-list .item .dscr p {}
+.modules-block .modules-wrapper .modules-list .item .button {}
+/*.modules-block .modules-wrapper .modules-form-price {}
+.modules-block .modules-wrapper .modules-form-price .modules-price {}
+.modules-block .modules-wrapper .modules-form-price .modules-form {}*/
+
+.reviews {}
+.reviews header {}
+.reviews .swiper-container {}
+.reviews .swiper-wrapper {}
+.reviews .swiper-slide {}
+.reviews .swiper-slide .name {}
+.reviews .swiper-slide .dscr {}
+.reviews .swiper-slide .dscr p {}
+.reviews .swiper-button-next {}
+.reviews .swiper-button-prev {}
+
+.about-us {}
+.about-us header {}
+.about-us .about-list {}
+.about-us .about-list .item {}
+.about-us .about-list .item .img {}
+.about-us .about-list .item header {}
+.about-us .about-list .item .dscr {}
+.about-us .about-list .item .dscr p {}
+
+.modules-form-price {}
+.modules-form-price .modules-price {}
+.modules-form-price .modules-form {}
+
+.another-courses {}
+.another-courses .item {}
+.another-courses .item header {}
+.another-courses .item .date {}
+
+footer {}
+footer .logo {}
+footer .footer-nav {}
+footer .copyright {}
+footer .copyright .soc {}
