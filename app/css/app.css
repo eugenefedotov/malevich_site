@@ -83,6 +83,28 @@ p {
 .header-nav .navbar-default .navbar-nav a:hover {
   color: #ad9356;
   }
+.header-nav .navbar-right p {
+  padding: 15px 8px;
+  color: #fff;
+  }
+.header-nav .navbar-right a {
+  display: inline-block;
+  padding: 15px 8px;
+  }
+.header-nav .navbar-right .feedback a {
+  position: relative;
+  color: #999 !important;
+  }
+.header-nav .navbar-right .feedback a i {
+  position: absolute;
+  height: 1px;
+  width: 89%;
+  border-bottom: 1px dashed #999;
+  }
+.header-nav .navbar-right .soc a {
+  font-size: 1.3vw;
+  padding: 15px 3px;
+  }
 
 .main-course {
   display: flex;
@@ -281,19 +303,49 @@ p {
   -webkit-box-shadow: 0 0 22px #d8d8d8;
   -moz-box-shadow: 0 0 22px #d8d8d8;
   box-shadow: 0 0 22px #d8d8d8;
+  padding: 6vw 3vw;
   }
-.about-us-wrapper .about-us header {}
-.about-us-wrapper .about-us .about-list {}
-.about-us-wrapper .about-us .about-list .item {}
-.about-us-wrapper .about-us .about-list .item .img {}
-.about-us-wrapper .about-us .about-list .item header {}
+.about-us-wrapper .about-us h3 {
+  text-align: center;
+  margin-bottom:4vw;
+  }
+.about-us-wrapper .about-us .about-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  }
+.about-us-wrapper .about-us .about-list .item {
+  width: calc(33% - 1vw);
+  margin-bottom: 3vw;
+  }
+.about-us-wrapper .about-us .about-list .item .img {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width:98px;
+  height:50px;
+  background: transparent url("../img/elipsis.png") no-repeat scroll 0 0;
+  -webkit-background-size:contain;
+  background-size: contain;
+  }
+.about-us-wrapper .about-us .about-list .item .img img {
+
+  }
+.about-us-wrapper .about-us .about-list .item header {
+  text-transform: uppercase;
+  font-weight: 800;
+  height: 4vw;
+  margin-top: 2vw;
+  }
 .about-us-wrapper .about-us .about-list .item .dscr {}
-.about-us-wrapper .about-us .about-list .item .dscr p {}
+.about-us-wrapper .about-us .about-list .item .dscr p {
+  font-size: 0.97vw;
+  }
 
 .modules-form-price {
   display: flex;
   justify-content: space-between;
-  margin-top:2vw;
+  margin-top:12vw;
   flex-wrap: wrap;
   }
 .modules-form-price .modules-price-wrapper {
@@ -423,7 +475,7 @@ footer {
   flex: 1;
   }
 .footer-wrapper .copyright p {
-  margin-bottom:1vw;
+  margin-bottom:0.9vw;
   }
 .footer-wrapper .copyright a {
   color: #fff;
@@ -432,4 +484,9 @@ footer {
 .footer-wrapper .footer-nav a:hover {
   color: #ad9356;
   }
-.footer-wrapper .copyright .soc {}
+.footer-wrapper .copyright .soc {
+  font-size: 1.4vw;
+  }
+.footer-wrapper .copyright .soc a {
+  margin-right:0.6vw;
+  }
