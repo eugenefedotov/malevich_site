@@ -73,6 +73,7 @@ p {
   }
 .header-nav .navbar-default .navbar-nav>li>a {
   color: #fff;
+  font-size: 1vw;
   text-shadow: none;
   }
 .header-nav .navbar-default .navbar-nav>.active>a,
@@ -85,10 +86,13 @@ p {
   }
 .header-nav .navbar-right p {
   padding: 15px 8px;
+  margin-bottom:0;
+  font-size: 1vw;
   color: #fff;
   }
 .header-nav .navbar-right a {
   display: inline-block;
+  font-size: 1vw;
   padding: 15px 8px;
   }
 .header-nav .navbar-right .feedback a {
@@ -101,7 +105,7 @@ p {
   width: 89%;
   border-bottom: 1px dashed #999;
   }
-.header-nav .navbar-right .soc a {
+.header-nav .navbar-right li.soc a {
   font-size: 1.3vw;
   padding: 15px 3px;
   }
@@ -345,7 +349,7 @@ p {
 .modules-form-price {
   display: flex;
   justify-content: space-between;
-  margin-top:12vw;
+  margin-top:2vw;
   flex-wrap: wrap;
   }
 .modules-form-price .modules-price-wrapper {
